@@ -1,0 +1,5 @@
+<map id="EpDoubleStruct" name="EpDoubleStruct">
+<area shape="rect" id="node2" href="$unionEpTypeUnion.html" title="Different views of a double. " alt="" coords="77,95,179,121"/>
+<area shape="rect" id="node3" href="$structIeeeNanStruct.html" title="IEEE double NaN struct. " alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$structIeeeDoubleStruct.html" title="IEEE double struct. " alt="" coords="136,5,259,32"/>
+</map>

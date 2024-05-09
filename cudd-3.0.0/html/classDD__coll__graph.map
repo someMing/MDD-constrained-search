@@ -1,0 +1,12 @@
+<map id="DD" name="DD">
+<area shape="rect" id="node2" href="$classCapsule.html" title="Class for reference counting of CUDD managers. " alt="" coords="475,511,546,537"/>
+<area shape="rect" id="node3" href="$structDdManager.html" title="Specialized DD symbol table. " alt="" coords="301,377,390,404"/>
+<area shape="rect" id="node4" href="$structDdLocalCache.html" title="Local cache. " alt="" coords="83,511,191,537"/>
+<area shape="rect" id="node11" href="$structDdHook.html" title="CUDD hook. " alt="" coords="306,511,377,537"/>
+<area shape="rect" id="node5" href="$structDdLocalCacheItem.html" title="Generic local cache item. " alt="" coords="26,318,161,345"/>
+<area shape="rect" id="node6" href="$structDdNode.html" title="Decision diagram node. " alt="" coords="159,5,230,32"/>
+<area shape="rect" id="node7" href="$structDdChildren.html" title="The two children of a non&#45;terminal node. " alt="" coords="195,191,282,218"/>
+<area shape="rect" id="node8" href="$structDdSubtable.html" title="Subtable for one index. " alt="" coords="601,191,692,218"/>
+<area shape="rect" id="node10" href="$structDdCache.html" title="Computed table. " alt="" coords="93,191,171,218"/>
+<area shape="rect" id="node9" href="$structMtrNode__.html" title="multi&#45;way tree node. " alt="" coords="306,191,385,218"/>
+</map>

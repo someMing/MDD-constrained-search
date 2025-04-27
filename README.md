@@ -11,6 +11,9 @@ System requirements: `Ubuntu`
 
 Lib requirements: have installed cudd-3.0.0 and meddly-master
 
+Warning: You have to install meddly-master using the directory 'meddly-master', Otherwise the Makefile will meet a mistake.
+	 If you cannot install meddly-master, contact the author, and I will give you a installed version of meddly-master.
+
 open terminal in this directory
 
 `make` - build main program

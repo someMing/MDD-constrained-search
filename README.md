@@ -9,6 +9,8 @@ Mingwei Zhang - 13337649640@163.com
 ## Build
 System requirements: `Ubuntu`
 
+Lib requirements: have installed cudd-3.0.0 and meddly-master
+
 open terminal in this directory
 
 `make` - build main program

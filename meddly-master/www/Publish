@@ -1,2 +1,0 @@
-#!/bin/bash
-rsync -v -e ssh *.css *.html web.sourceforge.net:/home/project-web/meddly/htdocs

@@ -1,8 +1,10 @@
 ## Introduction
 This is the source code and datasets of the paper "A Multi-Valued Decision Diagram-Based Approach to Constrained Optimal Path Problems over Directed Acyclic Graphs"
 
+and Mingwei's graduation thesis.
+
 ## Code author
-Mingwei Zhang - mingweizhang@stu2022.jnu.edu.cn
+Mingwei Zhang - 13337649640@163.com
 
 ## Build
 System requirements: `Ubuntu`
@@ -38,14 +40,15 @@ For example,  if we want to test the DAG `./data/experimentData/expPosDag` with 
 ```
 
 
-
 The results of BCS, MCS without domain reduction, and MCS with domain reduction are saved in the file `result_bcs.csv`, `result_mcs.csv`, and `result_remcs`,  respectively.
 
 
 
 ## Datasets
 
-All data sets in the paper are saved in ```./data/experimentData/```, including  4 DAG files and 24 constraint files.
+All data sets in the ijcai-24 paper are saved in ```./data/experimentData/```, including  4 DAG files and 24 constraint files.
+
+All data sets in the graduation thesis are saved in ```./data/experimentDataGraduate/```, including  4 DAG files and 64 constraint files.
 
 The characters in the file name represent the following:
 

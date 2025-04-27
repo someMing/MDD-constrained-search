@@ -15,14 +15,17 @@ OType = -O3
 
 run:clean $(TARGET)
 
-$(TARGET): $(SRC_WHERE)main.cc $(BUILD_WHERE)edge.o $(BUILD_WHERE)testData.o
+$(TARGET): $(SRC_WHERE)main.cc $(BUILD_WHERE)edge.o $(BUILD_WHERE)testData.o | build
 	$(CC) $(OType) $(INCLUDE) $^ -o $@ $(LIBS)
 
-$(BUILD_WHERE)edge.o: $(SRC_WHERE)edge.cc
+$(BUILD_WHERE)edge.o: $(SRC_WHERE)edge.cc | build
 	$(CC) $(OType) $(INCLUDE) -c $^ -o $@
 
-$(BUILD_WHERE)testData.o: $(SRC_WHERE)testData.cc
+$(BUILD_WHERE)testData.o: $(SRC_WHERE)testData.cc | build
 	$(CC) $(OType) $(INCLUDE) -c $^ -o $@
+
+build:
+	mkdir -p $(BUILD_WHERE)
 
 clean:
 	rm -f *.o $(BUILD_WHERE)*.o main
